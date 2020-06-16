@@ -2,7 +2,7 @@
 import spacy
 import numpy as np
 
-nlp = spacy.load("pt_core_news_sm")
+nlp = spacy.load("pt_core_news_sm", disable=["parser", "ner", "tagger", "textcat"])
 
 def tokenizador(texto):
     doc = nlp(texto)
