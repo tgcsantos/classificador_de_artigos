@@ -1,3 +1,6 @@
+# Author: Thiago Gonçalves Claro dos Santos <thiago.gsantos03@gmail.com>
+# Github e Twitter: @tgcsantos
+
 import pickle
 from gensim.models import KeyedVectors
 from flask import Flask, request, render_template
